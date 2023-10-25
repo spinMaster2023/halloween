@@ -104,6 +104,92 @@ export function Home() {
       </div>
       <div className="banner2"></div>
 
+      <div className="container-fluid fondo">
+        <div className="row p-5">
+          <div className="col-6 align-self-center text-center">
+            <h5>HELL</h5>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat possimus, consequuntur eos sit quo saepe magnam exercitationem, quae magni tenetur modi voluptates delectus illum facilis animi accusantium harum ducimus blanditiis.</p>
+          </div>
+          <div className="col-4">
+            <img src="../../src/assets/img/muzan.jpg" alt="perona" className='img-fluid w-100' />
+          </div>
+        </div>
+        <div className="row">
+
+        </div>
+      </div>
+      
+
+      <div className='container-fluid g-0 '>
+        <div className="row">
+          <div className="col-12">
+            <img src="../../src/assets/img/all might.jpg" alt="" className='img-fluid w-100'/>
+          </div>
+        </div>
+
+        <div className='row row-cols-1 row-cols-md-3 my-5 bg-secondary-subtle'>
+
+
+          <div className="col text-center">
+            <div className="card h-100 p-3 shadow">
+              <img src="../../src/assets/img/targeta1.2.jpg" alt=""  className='img-fluid w-100'/>
+              <h3 className='text-danger fw-bold'>REZE</h3>
+              <p className='fw-bold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, officia. Quaerat in rem consectetur rerum fuga. Officiis error, totam quisquam neque repellat rerum ut odit quas facere architecto magni mollitia!</p>
+              <hr />
+              <h5 className='fw-bold text-success'>POR NOCHE: $1.000.000</h5>
+              <button className='btn btn-primary'><i class="bi bi-cart-plus"></i>  Ampliar</button>
+              
+            </div>
+          </div>
+
+
+          <div className="col text-center">
+            <div className="card h-100 p-3 shadow">
+              <img src="../../src/assets/img/targeta2.jpg" alt=""  className='img-fluid w-100'/>
+              <h3 className='text-danger fw-bold'>POWER</h3>
+              <p className='fw-bold '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, officia. Quaerat in rem consectetur rerum fuga. Officiis error, totam quisquam neque repellat rerum ut odit quas facere architecto magni mollitia!</p>
+              <hr />
+              <h5 className='fw-bold text-success'>POR NOCHE: $500.000</h5>
+              <button className='btn btn-primary'> <i class="bi bi-cart-plus"></i>  Ampliar</button>
+            </div>
+            </div>
+
+
+          <div className="col text-center">
+            <div className="card h-100 p-3 shadow">
+              <img src="../../src/assets/img/targeta3.1.jpg" alt=""  className='img-fluid w-100'/>
+              <h3 className='text-danger fw-bold'>KOMI-SAN</h3>
+              <p className='fw-bold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, officia. Quaerat in rem consectetur rerum fuga. Officiis error, totam quisquam neque repellat rerum ut odit quas facere architecto magni mollitia!</p>
+              <hr />
+              <h5 className='fw-bold text-success'>POR NOCHE: $10.000.000</h5>
+              <button className='btn btn-primary'> <i class="bi bi-cart-plus"></i>  Ampliar</button>
+            </div>
+            </div>
+
+
+        </div>
+      </div>
+
+      <footer>
+        <div className="container-fluid bg-dark text-white">
+          <div className="row p-5">
+            <div className="col-6 text-end border-end">
+              <h5>Unajirafa</h5>
+              <h5>Medellin-colombia</h5>
+              <h5>Todos los derechos reservado &copy;</h5>
+            </div>
+            <div className="col-6 align-self-center">
+              <i class="bi bi-instagram p-2 fs-2"></i>
+              <i class="bi bi-tiktok p-2 fs-2"></i>
+              <i class="bi bi-twitch p-2 fs-2"></i>
+
+            </div>
+          </div>
+        </div>
+
+      </footer>
+
+
     </>
   )
 }
