@@ -1,4 +1,7 @@
 import './Home.css'
+import {Formulario} from '../formulario/formulario'
+import { Footer } from '../footer/footer'
+
 export function Home() {
   return (
     <>
@@ -75,7 +78,7 @@ export function Home() {
                   placeholder="Search"
                   aria-label="Search"
                 />
-                <button className="btn btn-outline-success" type="submit">
+                <button className="btn btn-outline-light" type="submit">
                   Search
                 </button>
               </form>
@@ -162,7 +165,7 @@ export function Home() {
               <p className='fw-bold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, officia. Quaerat in rem consectetur rerum fuga. Officiis error, totam quisquam neque repellat rerum ut odit quas facere architecto magni mollitia!</p>
               <hr />
               <h5 className='fw-bold text-success'>POR NOCHE: $10.000.000</h5>
-              <button className='btn btn-primary'> <i class="bi bi-cart-plus"></i>  Ampliar</button>
+              <button className='                 '> <i class="bi bi-cart-plus"></i>  Ampliar</button>
             </div>
             </div>
 
@@ -170,24 +173,27 @@ export function Home() {
         </div>
       </div>
 
-      <footer>
-        <div className="container-fluid bg-dark text-white">
-          <div className="row p-5">
-            <div className="col-6 text-end border-end">
-              <h5>Unajirafa</h5>
-              <h5>Medellin-colombia</h5>
-              <h5>Todos los derechos reservado &copy;</h5>
+      <section>
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <Formulario></Formulario>
             </div>
-            <div className="col-6 align-self-center">
-              <i class="bi bi-instagram p-2 fs-2"></i>
-              <i class="bi bi-tiktok p-2 fs-2"></i>
-              <i class="bi bi-twitch p-2 fs-2"></i>
+          </div>
+        </div>
+      </section>
 
+
+      
+        <div className="container-fluid bg-dark">
+          <div className="row">
+            <div className="col-12">
+            <Footer></Footer>
             </div>
           </div>
         </div>
 
-      </footer>
+      
 
 
     </>
